@@ -1,0 +1,18 @@
+.movies-row {
+  display: flex;
+  width: 3000px;
+
+  @media (max-width: 768px) {
+    width: 4000px;
+  }
+
+  img {
+    height: 250px;
+  }
+}
+
+.movies {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
