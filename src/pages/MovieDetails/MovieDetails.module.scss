@@ -59,8 +59,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-}
 
-.text-gray {
-  color: rgb(87, 87, 87);
+  @media (max-width: 768px) {
+    justify-content: center;
+
+    img {
+      width: 250px;
+    }
+  }
 }
